@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const OptionColor = ({ colors, currentColor, setCurrentColor}) => {
     
     const prepareColorClassName = color => {
-    return styles['color' + color[0].toUpperCase() + color.substr(1).toLowerCase()];
+        return styles['color' + color[0].toUpperCase() + color.substr(1).toLowerCase()];
     };
 
     return (
